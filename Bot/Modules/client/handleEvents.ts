@@ -5,7 +5,7 @@ import { loopDir } from "../generic/fileManager";
 
 /// SETTINGS //////////////////////////////////////////////////
 
-const eventPath: string = `./Source/Bot/Events` // event folder path
+const eventPath: string = `./Bot/Events` // event folder path
 
 ///////////////////////////////////////////////////////////////
 

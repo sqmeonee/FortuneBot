@@ -4,13 +4,14 @@
   "main": "src/index.ts",
   "type": "module",
   "scripts": {
-    "bot": "tsx Source/Bot/index.ts"
+    "bot": "tsx Bot/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/blessed": "^0.1.27",
     "@types/node": "^25.9.1",
     "blessed": "^0.1.81",
     "discord.js": "^14.26.4",

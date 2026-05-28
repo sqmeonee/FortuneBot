@@ -1,5 +1,5 @@
 import { ChatInputCommandInteraction, Client, EmbedBuilder, SlashCommandBuilder } from "discord.js";
-import { DefaultColor } from "../../../Data/defaults.json";
+import { DefaultColor } from "../../Data/defaults.json";
 
 export default {
     data: new SlashCommandBuilder()

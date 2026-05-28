@@ -4,7 +4,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { loopDir } from "../generic/fileManager";
 
-const commandsFolder = `./Source/Bot/Commands`
+const commandsFolder = `./Bot/Commands`
 const commands: any[] = [];
 
 async function getCommands(client: Client, csp?: string) {
